@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { useAuth } from "@/features/auth/hooks/useAuth";
-import { ROUTES } from "@/routes/routePaths";
+import { useAuth } from "../../features/auth/hooks/useAuth";
+import { ROUTES } from "../../routes/routePaths";
 
 const DashboardLayout = () => {
   const { user, logout } = useAuth();

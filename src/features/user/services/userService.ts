@@ -1,4 +1,4 @@
-import api from "@/shared/services/api";
+import api from "../../../shared/services/api";
 import type { UpdateProfileRequest, User } from "../types/user";
 
 export const getCurrentUser = async (): Promise<User> => {

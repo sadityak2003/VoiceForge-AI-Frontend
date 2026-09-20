@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-import { useAuth } from "@/shared/context/AuthContext";
+import { useAuth } from "../../../shared/context/AuthContext";
 
 const OAuth2SuccessPage = () => {
     const location = useLocation();
