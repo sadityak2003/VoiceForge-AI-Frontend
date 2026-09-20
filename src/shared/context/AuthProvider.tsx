@@ -4,10 +4,10 @@ import {
 } from "react";
 import type { ReactNode } from "react";
 
-import type { User } from "@/features/user/types/user";
-import { getCurrentUser } from "@/features/user/services/userService";
+import type { User } from "../../features/user/types/user";
+import { getCurrentUser } from "../../features/user/services/userService";
 
-import { AuthContext } from "@/shared/context/AuthContext";
+import { AuthContext } from "./AuthContext";
 
 interface Props {
   children: ReactNode;

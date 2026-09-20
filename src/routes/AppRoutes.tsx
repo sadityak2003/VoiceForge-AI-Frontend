@@ -6,11 +6,11 @@ import ProtectedRoute from "./ProtectedRoute";
 
 import LoginPage from "../features/auth/pages/LoginPage";
 import RegisterPage from "../features/auth/pages/RegisterPage";
-import DashboardLayout from "@/shared/layouts/DashboardLayout";
-import DashboardPage from "@/features/user/pages/DashboardPage";
-import VoicePage from "@/features/voice/pages/VoicePage";
-import HistoryPage from "@/features/history/pages/HistoryPage";
-import ProfilePage from "@/features/user/pages/ProfilePage";
+import DashboardLayout from "../shared/layouts/DashboardLayout";
+import DashboardPage from "../features/user/pages/DashboardPage";
+import VoicePage from "../features/voice/pages/VoicePage";
+import HistoryPage from "../features/history/pages/HistoryPage";
+import ProfilePage from "../features/user/pages/ProfilePage";
 import OAuth2SuccessPage from "../features/auth/pages/OAuth2SuccessPage";
 
 export default function AppRoutes() {

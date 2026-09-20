@@ -1,6 +1,6 @@
 import {Navigate} from "react-router-dom";
 
-import { useAuth} from "@/features/auth/hooks/useAuth";
+import { useAuth} from "../features/auth/hooks/useAuth";
 import { ROUTES } from "./routePaths";
 
 import HomePage from "../features/home/pages/HomePage";
