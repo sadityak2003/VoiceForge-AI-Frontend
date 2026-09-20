@@ -3,7 +3,7 @@ import {
     useContext,
 } from "react";
 
-import type { AuthContextType } from "@/shared/types/auth";
+import type { AuthContextType } from "../../shared/types/auth";
 
 export const AuthContext = createContext<AuthContextType | null>(null);
 

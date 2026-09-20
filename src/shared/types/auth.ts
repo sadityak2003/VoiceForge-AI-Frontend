@@ -1,4 +1,4 @@
-import type { User } from "@/features/user/types/user";
+import type { User } from "../../features/user/types/user";
 
 export interface AuthContextType {
   token: string | null;

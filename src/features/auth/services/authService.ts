@@ -1,4 +1,4 @@
-import api  from "@/shared/services/api";
+import api  from "../../../shared/services/api";
 import type { LoginRequest, LoginResponse, RegisterRequest, RegisterResponse } from "../types/auth";
 
 export const login = async (

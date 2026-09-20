@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { login } from "@/features/auth/services/authService";
-import type { LoginRequest } from "@/features/auth/types/auth";
-import { useAuth } from "@/shared/context/AuthContext";
+import { login } from "../../../features/auth/services/authService";
+import type { LoginRequest } from "../../../features/auth/types/auth";
+import { useAuth } from "../../../shared/context/AuthContext";
 
 const LoginPage = () => {
   const navigate = useNavigate();
