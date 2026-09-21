@@ -29,6 +29,6 @@ export const deleteHistory = async (
     id: string
 ): Promise<void> => {
     await api.delete(
-        `/history${id}`
+        `/history/${id}`
     );
 };
