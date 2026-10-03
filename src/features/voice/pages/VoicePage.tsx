@@ -4,7 +4,7 @@ import { generateVoice } from "../services/voiceService";
 
 const voices = [
     {
-        id: "21m00Tcm4TlvDq8ikWAM",
+        id: "CwhRBWXzGAHq8TQ4Fs17",
         name: "Rachel",
         description: "Warm • Expressive • American English",
     },
@@ -14,7 +14,7 @@ const VoicePage = () => {
     const [text, setText] = useState("");
 
     const [voiceId, setVoiceId] = useState(
-        "21m00Tcm4TlvDq8ikWAM"
+        "CwhRBWXzGAHq8TQ4Fs17"
     );
 
     const [modelId, setModelId] = useState(
